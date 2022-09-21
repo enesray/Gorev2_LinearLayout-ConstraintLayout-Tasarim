@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".YatayActivity">
+
+    <ImageView
+        android:id="@+id/ımageEnes"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:src="@drawable/raytechlojistik">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/TxtViewPersonel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personel:"
+        android:textSize="15dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtTxtPersonel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/TxtViewRota"
+        android:text="Rota:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtRota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/TxtViewOperationCheckTipi"
+        android:text="Operation Check Tipi:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <RadioButton
+        android:id="@+id/radioGunlukOperationCheck"
+        android:text="Günlük Operation Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></RadioButton>
+
+    <RadioButton
+        android:id="@+id/radioHaftalikOperationCheck"
+        android:text="Haftalik Operation Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></RadioButton>
+
+    <Button
+        android:id="@+id/btnYatay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Başlat"></Button>
+
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtViewIsEmriKodu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="İş Emri Kodu">
+    </TextView>
+        <EditText
+            android:id="@+id/edtTxtIsEmriKodu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="6">
+        </EditText>
+
+    <TextView
+        android:id="@+id/txtViewIsEmriTanimi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="İş Emri Tanımı">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtIsEmriTanimi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewRota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Rota">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtRota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewOlusturmaTarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Oluşturma Tarihi">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtOlusturmaTarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewPlanTarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Plan Tarihi">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtPlanTarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewAktivite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Aktivite">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtAktivite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewEkipman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Ekipman">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtEkipman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewEkipmanAciklamasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Ekipman Açıklaması">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtEkipmanAciklamasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewPozisyon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Pozisyon">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtPozisyoni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewPozisyonAciklamasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Pozisyon Açıklaması">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtPozisyonAciklamasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewİsEmriTipi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="İş Emri Tipi">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtİsEmirTipi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewOncelik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Öncelik">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtOncelik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtViewOlusturan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Oluşturan">
+    </TextView>
+    <EditText
+        android:id="@+id/edtTxtOlusturan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="55">
+    </EditText>
+</LinearLayout>
